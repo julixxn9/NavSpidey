@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: bangers;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 50px;
+}
+
+button{
+    padding: 7px;
+    border-radius: 5px;
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     /* Gradiente lineal de negro a rojo */
+    background: linear-gradient(to right, #000000, #ff0000);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.ul_links{
+    display: flex;
+    gap: 40px;
+}
+
+
+.ul_links_main{
+    display: flex;
+    gap: 40px;
+}
+
+.ul_links a, .ul_links_main a{
+    text-decoration: line;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 25px;
+}
+
+a:hover{
+    background-color: rgb(255, 255, 0);
+    transition: 1s;
+    color: #000000;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+    .logo img{
+        width: 175px;
+        height: 175px;
+    }
+
+    .ul_links{
+        gap: 7px;
+    }
+
+    .ul_links a{
+        font-size: 15px;
+
+    }
+
+    .ul_links_main{
+        display: none;
+    }
+
+    button{
+        display: flex;
+
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+    .logo h2{
+        font-size: 40px;
+    }
+    
+    .ul_links{
+        gap: 10px;
+    }
+
+    .ul_links_main{
+        display: none;
+    }
+
+    button{
+        display: flex;
+        font-size: 25px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ul_links{
+        display: none;
+    }
+}
