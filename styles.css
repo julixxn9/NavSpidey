@@ -50,8 +50,7 @@ header{
 }
 
 a:hover{
-    background-color: rgb(255, 255, 0);
-    transition: 1s;
+    transition: 0.5s;
     color: #000000;
 }
 
@@ -60,7 +59,7 @@ button{
     font-size: 15px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
 
     header{
         display: flex;
@@ -96,7 +95,7 @@ button{
     
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1550px) {
 
     .logo h2{
         font-size: 40px;
@@ -122,3 +121,4 @@ button{
         display: none;
     }
 }
+
